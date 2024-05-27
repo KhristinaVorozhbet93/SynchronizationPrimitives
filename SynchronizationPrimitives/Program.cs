@@ -8,7 +8,6 @@
             ILock locker = new MyMonitor();
             //ILock locker = new MyMutex();
             //ILock locker = new MySpinLock();
-
             
             object _syncObject = new();
             var task = Task.Run(() =>
